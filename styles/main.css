@@ -1,11 +1,6 @@
-<style>
-
 body {
-    background: green;
-    font-family: Arial, Helvetica, sans-serif
+    background: red
 }
-h1 {
-    color: rgb(235, 16, 16);
+title {
+    color: green
 }
-
-</style>
