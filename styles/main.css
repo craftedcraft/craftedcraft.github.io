@@ -1,6 +1,93 @@
-body {
-    background: red
+/*-----------header------------*/
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
 }
+header nav li {
+    display: inline;
+    float: right;
+}
+header nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    background-color: #3DB24F;
+}
+header a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+.logo{
+    float: left;
+    width: 20%; 
+    height: 20%;
+    margin: 2px;
+} 
 h1 {
-    color: green
+    font-size: 35px;
+    color: #006637;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+h2 {
+    font-size: 25px;
+    color: ##3D3D3D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 20px;
+    color: ##7A7A7A;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+img {
+    height: 100%;
+    width:100%;
+}
+
+/*-----------footer------------*/
+
+footer {
+    width: 100%;
+    background-color: #dddddd padding: 60px 0px;
+}
+footer nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #dddddd;
+}
+footer nav li {
+    display: inline;
+    float: center;
+}
+footer nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.active {
+    background-color: #3DB24F;
+}
+
+footer nav li a:hover {
+    background-color: #3DB24F;
+}
+footer a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
 }
