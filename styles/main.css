@@ -4,7 +4,7 @@ header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #dddddd;
+
 }
 header nav li {
     display: inline;
@@ -23,16 +23,24 @@ header nav li a:hover {
 }
 header a {
     display: block;
-    padding: 8px;
+    padding: 20px;
     background-color: #dddddd;
 }
 
-.logo{
-    float: left;
-    width: 20%; 
-    height: 20%;
-    margin: 2px;
+.logo {
+    position: fixed;
+    left: 5px;
+    top: 5px;
+    width: 120px; 
+    height: 120px;
 } 
+
+.banner {
+    display: block;
+    width: 100%;
+    max-height: 500px;
+}
+
 h1 {
     font-size: 35px;
     color: #006637;
@@ -45,7 +53,6 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-}
 h3 {
     font-size: 20px;
     color: #624017;
@@ -58,11 +65,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fff;
 }
-header img {
-    height: 100%;
-    width:100%;
-}
-
 /*-----------footer------------*/
 
 footer {
