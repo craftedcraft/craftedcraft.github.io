@@ -50,8 +50,8 @@ header a {
 
 .body {
     display: block;
-    width: 100%;
-    max-width: 900;
+    width: 75%;
+    max-width: 900px;
     margin: 40px auto;
     position: center;
 }
