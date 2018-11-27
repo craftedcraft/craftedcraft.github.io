@@ -47,6 +47,15 @@ header a {
     height: 1920px;
     position: relative;
 }
+
+.body {
+    display: block;
+    width: 100%;
+    max-width: 900;
+    margin: 40px auto;
+    position: center;
+}
+
 #container {
     margin-left: 3%;
 }
