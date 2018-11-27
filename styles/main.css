@@ -39,12 +39,12 @@ header a {
 .banner {
     display: block;
     width: 100%;
-    max-width: 1920px;
+    max-width: 2000px;
     margin: 40px auto;
     margin-bottom: 0px;
-    max-height: 500px;
+    max-height: 800px;
     overflow: hidden;
-    height: 250px;
+    height: 1920px;
     position: relative;
 }
 #container {
