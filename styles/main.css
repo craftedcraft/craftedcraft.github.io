@@ -47,11 +47,11 @@ header a {
     height: 1920px;
     position: relative;
 }
-
+/* image on sprint 2 tech */
 .body {
     display: block;
-    width: 75%;
-    max-width: 900px;
+    width: 50%;
+    max-width: 700px;
     margin: 40px auto;
     position: center;
 }
